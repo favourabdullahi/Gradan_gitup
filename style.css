@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #d1cfcf;
+}
+.button-1{
+    background-color: #0beba0;
+    color: rgb(6, 7, 8);
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+/***global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    color: #f4f4f4;
+    font-weight: 100;
+
+}
+    .container-5{
+        height: 40px;
+        width: 70px;
+        background-color: #354243;
+    }
+
+
+img{
+    height: 80vh;
+    width: 80vw;
+}
+@media (min-width:600px){
+    header{
+        width: 100%;
+    }
+}
+header{
+    background: #656f75;
+    color: #ffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(242, 248, 233) 3px solid ;
+    position: fixed;
+
+}
+header a{
+    color: #f4f4f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+span{
+    color: #0beba0;
+    font-weight: bold;
+}
+header a:hover{
+    color: #0beba0;
+    font-weight: bold;
+}
+#showcase{
+    background: url(image/showcase.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;}
+    
+#newsletter{
+    padding: 15px;
+    color: #f4f4f4;
+    background: #354243;
+}
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#newsletter form input{
+    height: 27px;
+}
+
+
+#newsletter .button-1{
+    width: 70px;
+    
+}
+
+#newsletter .button-1 a{
+    text-decoration: none;
+    color: rgb(27, 27, 48);
+    
+}
+
+#newsletter .button-1:hover{
+    background: aliceblue;
+}
+
+
+
+
+.container-1 {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#boxes .container-1 {
+    display: flex;
+    gap: 30px;
+}
+
+.box-1 img {
+    width: 415px;
+    height: 415px;
+    margin-top: 30px;
+}
+
+.box-2 img {
+    width: 415px;
+    height: 415px;
+    margin-top: 30px;
+
+}
+
+.box-3 img {
+    width: 415px;
+    height: 415px;
+    margin-top: 30px;
+
+}
+footer{
+    height: 20px;
+    background-color:#656f75; 
+    text-decoration: solid;
+
+}
+footer p{
+    margin-left: 73rem;
+}
+
+
+
+
+
+
+
